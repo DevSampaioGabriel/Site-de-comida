@@ -13,6 +13,7 @@ header {
     background: url('./assets/site/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .logo_marca {
@@ -46,24 +47,13 @@ ul {
 }
 
 ul li a {
-    display: inline-block;
     color: white;
     text-decoration: none;
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: 42.8571px;
-    display: inline-block;
-    position: relative;
-    color: #ffffff;
-    padding-right: 60px;
-    font-family: "Amatic SC", cursive;
-    font-weight: normal;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+    
 }
 
 ul li a:hover {
@@ -129,6 +119,27 @@ section {
 }
 .butao_comprar:hover {
     cursor: pointer;
-   background-color: yellowgreen;
-   transform: scale(1.1);
+    background-color: yellowgreen;
+    transform: scale(1.1);
 }
+.menu_icon {
+    display: ;
+    height: 110px;
+    width: 100px;
+    border: 2px solid white;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+    header {
+        background-position: center;
+    }
+
+    .logo_marca {
+        height: 150px;
+        width: 150px;
+        
+    }
+}
+
