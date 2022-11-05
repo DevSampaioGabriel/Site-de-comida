@@ -13,7 +13,6 @@ botaoMenu.addEventListener('click', () => {
             for (const elemento of Ul_links) {
                 elemento.style.display = "flex"
             }
-            Ul.removeEventListener("animationend", arguments.callee)
         })
     }  
 })
